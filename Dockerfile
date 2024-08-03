@@ -24,15 +24,3 @@ RUN npm install -g serve
 
 # Specify the command to run the app
 CMD ["serve", "-s", "build", "-l", "3000"]
-
-
-
-// yeah, right.. desselect this, yeah fine
-/// the thing is how you wnt to build your image you've specified here in the dockerfile 
-// now in the main.yml file; you're again specifying it. 
-// from line number 11 to and before docker push / got it? 
-/ let me fix it for you
-
-
-so i should remove the extra declaration from main.yaml file?
-//yeah right 
